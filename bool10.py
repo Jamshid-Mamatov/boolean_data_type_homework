@@ -8,6 +8,4 @@ def main(a):
         bool
     """
     # Write your code here
-    x=sqrt(a)
-
-    return a==x*x
+    return a>0 and a==pow(sqrt(a),2)
