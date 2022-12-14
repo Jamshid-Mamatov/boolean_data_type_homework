@@ -11,5 +11,3 @@ def main(a):
     x=sqrt(a)
 
     return a==x*x
-
-print(main(9),main(6))
