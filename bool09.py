@@ -1,3 +1,4 @@
+from math import trunc
 def main(a):
     """
     Check the natural number. Natural numbers are numbers used in counting.
@@ -7,4 +8,8 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    if trunc(a)==a and a>0:
+        result=True
+    else:
+        result=False
+    return result
