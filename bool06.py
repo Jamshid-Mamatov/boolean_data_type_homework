@@ -8,8 +8,6 @@ def main(a):
     """
     # Write your code here
 
-    if a%2==0:
-        result=True
-    else:
-        reslut=False
-    return 
+    x=a%2
+
+    return x==0

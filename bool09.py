@@ -1,4 +1,4 @@
-from math import trunc
+from math import floor
 def main(a):
     """
     Check the natural number. Natural numbers are numbers used in counting.
@@ -8,8 +8,5 @@ def main(a):
         bool
     """
     # Write your code here
-    if trunc(a)==a and a>0:
-        result=True
-    else:
-        result=False
-    return result
+    
+    return a>0 and a== floor(a)

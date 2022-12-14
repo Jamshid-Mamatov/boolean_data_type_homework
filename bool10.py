@@ -8,8 +8,8 @@ def main(a):
         bool
     """
     # Write your code here
-    if sqrt(a)==a*a:
-        result=True
-    else:
-        result=False
-    return result
+    x=sqrt(a)
+
+    return a==x*x
+
+print(main(9),main(6))

@@ -7,8 +7,6 @@ def main(a):
         bool
     """
     # Write your code here
-    if a%2==1:
-        result=True
-    else:
-        result=False
-    return result
+    x=a%2
+    return x==1
+print(main(2),main(1))
