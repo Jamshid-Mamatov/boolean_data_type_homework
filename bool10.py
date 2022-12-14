@@ -8,4 +8,4 @@ def main(a):
         bool
     """
     # Write your code here
-    return a>0 and a==pow(sqrt(a),2)
+    return a>0 and a==round(sqrt(a))**2
